@@ -1,0 +1,110 @@
+*{
+    margin : 0;
+    padding: 0;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(241, 241, 241);
+    opacity: 1; /* Firefox */
+  }
+  
+.main-heading{
+  margin-left: auto;
+  margin-top: 90px;
+  text-align: center;
+  color: white;
+  background: no-repeat;
+}
+.main-heading input{
+    border: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    width: 250px;
+    padding: 15px;
+}
+.main-heading input:focus{
+    outline: none;
+}
+.main-heading a{
+    width: 300px;
+    text-align: center;
+    border:1px solid white;
+    margin-bottom: 10px;
+    color: white;
+    padding:  8px 15px;
+    text-decoration: none;
+}
+.main-heading a:hover{
+    color: white;
+    text-decoration: none;
+}
+.main-heading .btn{
+    width: 300px;
+    text-align: center;
+    border:1px solid white;
+    margin-bottom: 10px;
+}
+.main-heading .btn:focus{
+    border: none;
+}
+.upper{
+    background-color: blueviolet;
+    height: 20px;
+}
+h1{
+    color: white;
+    margin: 30px auto;
+    text-align: center;
+}
+.todo{
+    margin: 20px auto;
+    padding: 10px;
+    /* border:1px solid red; */
+    text-align: center;
+}
+.todo input[type=text]{
+    background-color: white;
+    padding: 6px;
+    color: white;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid white;
+    text-align: center;
+    margin: 0 auto;
+}
+.todo .btn{
+    margin: 8px;
+    padding: 5px 10px;
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+}
+.list{
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    text-align: center;
+    width: 200px;
+    /* height: 100px; */
+    color: white;
+    list-style: none;
+
+}
+.list li{
+    /* border-bottom: 1px solid white; */
+    margin: 12px;
+}
+button{
+    display: inline;
+}
+.list button{
+    margin: 0 3px;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    font-weight: bold;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-database.js"></script>
+    <script>
+        var firebaseConfig = {
+          apiKey: "AIzaSyAJXAULFyCB_Ux3KZqNgnqYp-eZPQ6gPd8",
+          authDomain: "todoappdatabase-b3e46.firebaseapp.com",
+          databaseURL: "https://todoappdatabase-b3e46.firebaseio.com",
+          projectId: "todoappdatabase-b3e46",
+          storageBucket: "todoappdatabase-b3e46.appspot.com",
+          messagingSenderId: "1072755919440",
+          appId: "1:1072755919440:web:250e4aba405500bd395f55",
+          measurementId: "G-32BDGZ4ZZY"
+        };
+        firebase.initializeApp(firebaseConfig);
+        // firebase.analytics();
+      </script>
+</head>
+<body>
+    <h1>ToDo App</h1>
+    <div class="todo">
+    <input type="text" name="" id="todoWork" size="30" ><br>
+    <button class="btn"  onclick="firebaseDataRemove()">Delete All</button>
+    <button class="btn" onclick="Add();"> Add </button>
+    <!-- <input type="text" name="" id=""> -->
+</div>
+<div>
+    <ul class="list">
+
+    </ul>
+</div>
+</body>
+<script src="app.js"></script>
+</html>
